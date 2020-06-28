@@ -1,0 +1,213 @@
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    body{
+        background-color: black;
+    }
+      main {
+    
+      background-color: white;
+      
+    }
+    section {
+     
+      background-color: rgb(180, 180, 180);
+      
+    }
+    h2 {
+      font-size: 20px;
+      font-weight: 900;
+    }
+    h2 span {
+      font-size: 20px;
+      font-weight: 500;
+      color: gray;
+    }
+    div {
+      border: 1px solid black;
+    }
+  
+    #a {
+     
+      background-color: #f9f9f9;
+  
+    }
+    #b {
+   
+      background-color: #ffe0ac;
+  
+    }
+    #c {
+     
+      background-color: #ffacb7;
+  
+    }
+  
+    #d {
+    
+      background-color: #6886c5;
+  
+    }
+    #e {
+    
+      background-color: #092532;
+  
+     
+    }
+    #f{
+     
+      background-color: #89c9b8;
+  
+    }
+    #g{
+    
+      background-color: #c7e2b2;
+  
+    }
+    #h{
+     
+      background-color: #e1ffc2;
+  
+    }
+  
+    #i {
+    
+      background-color: #b9ac92;
+  
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  @media screen and (min-width: 768px) and (max-width: 960px) {
+    body {
+      background-color: black;
+    }
+    main {
+  
+      
+    
+      background-color: white;
+    }
+    section {
+     
+      background-color: rgb(180, 180, 180);
+    }
+    h2 {
+      font-size: 20px;
+      font-weight: 900;
+    }
+    h2 span {
+      font-size: 20px;
+      font-weight: 500;
+      color: gray;
+    }
+    #a {
+      
+      background-color: #f9f9f9;
+    }
+   
+    #b {
+     
+      background-color: #ffe0ac;
+    }
+   
+    #c{
+      background-color: #ffacb7;
+    }
+    #d{
+      background-color: #6886c5;
+    }
+    
+   
+    #e{
+      background-color: #092532;
+    }
+    #f{
+      background-color: #89c9b8;
+  
+    }
+    #g{
+      background-color: #c7e2b2;
+  
+    }
+    #h{
+      background-color: #e1ffc2;
+  
+    }
+  
+    #i {
+      
+      background-color: #b9ac92;
+    }
+   
+  }
+  
+  
+  
+  
+  /* STRECH GOALS */
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    
+    
+    #a {
+     
+      background-color: #f9f9f9;
+    }
+   
+    #a p::before{
+      font-weight: bolder;
+      font-size: 30px;
+      color: navy;
+      content: "It is ";
+    }
+    #a p::after{
+      font-weight: bolder;
+      font-size: 30px;
+      color: navy;
+      content: " Tablet";
+    }
+  
+    #b {
+     
+      background-color: #ffe0ac;
+    }
+   
+    #c{
+      background-color: #ffacb7;
+    }
+    #d{
+      background-color: #6886c5;
+    }
+    
+   
+    #e{
+      background-color: #092532;
+    }
+    #f{
+      background-color: #89c9b8;
+  
+    }
+    #g{
+      background-color: #c7e2b2;
+  
+    }
+    #h{
+      background-color: #e1ffc2;
+  
+    }
+   
+  
+    #i {
+    
+     
+      background-color: #b9ac92;
+    }
+   
+    
+  }
+  
