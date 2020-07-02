@@ -1,338 +1,363 @@
-/* * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-div p {
-  text-align: center;
-}
-div {
-  border: 1px solid black;
-  margin: 0 auto;
-}
 
-#empty {
-  height: 50px;
-  border: 0 none;
-} 
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
-  body{
-      background-color: black;
-  }
-    main {
+#aHead{
     width: 100%;
+    height: 100px;
+    line-height: 100px;
+    background-color: #383e56;
+  }
+  
+  
+  #parent{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 600px;
+    
+  }
+  #sidebar{
+    height: 600px;
+    
+    width: 20%;
+    
+    background-color: #f69e7b;
+  }
+  #bAside{
     height: 100%;
-    background-color: white;
-    margin: 0 auto;
+    line-height: 600px;
     
   }
-  section {
-    width: 767px;
- 
-    height: 80%;
-    background-color: rgb(180, 180, 180);
-    margin: 0 auto;
-    
+  #cAside{
+    background-color: #eedad1;
+  
   }
-  h2 {
-    padding-top: 50px;
-    font-size: 20px;
-    font-weight: 900;
-    margin-left: 19%;
+  #dAside{
+    background-color: #d4b5b0;
+  
   }
-  h2 span {
-    font-size: 20px;
-    font-weight: 500;
-    color: gray;
+  #bdyChld{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 600px;
   }
-  div {
-    left: 90px;
+  #fstBdyChld{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height:250px ;
+  }
+  .fstBdyChld{
+  width: 50%;
+  height: 250px;
+  line-height: 200px;
+  
+  }
+  #secBdyChld{
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+  }
+  
+  
+  .squered{
+    width: 25%;
+    height: 100%;
+      line-height: 250px;
+  
+  }
+  #ee{
+    background-color: #f4f4f4;
+  }
+  #ff{
+    background-color: #f0a500;
+  }
+  #gg{
+    background-color: #cf7500;
+  }
+  #hh{
+    background-color: #000000;
+  }
+  
+  #footChld{
+    width: 100%;
+    height: 100px;
+    background-color: #d4b5b0;
+  }
+  #footChld p{
+    text-align: center;
     border: 1px solid black;
+    line-height: 100px;
   }
-
-  #a {
-    width: 480px;
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  @media (min-width: 480px) and (max-width: 767px){
+    
+    
+  
+  #aHead{
+    width: 100%;
     height: 75px;
-    background-color: #f9f9f9;
-
+    line-height: 75px;
+    background-color: #fbd46d;
   }
-  #b {
-    width: 480px;
+  
+  #parent{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    width: 100%;
+    height: 1105px;
+    
+  }
+  #sidebar{
     height: 150px;
-    background-color: #ffe0ac;
-
+    
+    width: 100%;
+    background-color: #4f8a8b;
+  
   }
-  #c {
-    width: 480px;
-    height: 125px;
-    background-color: #ffacb7;
-
+  #bAside{
+    height: 150px;
+    line-height: 150px;
+    
   }
-
-  #d {
-    width: 480px;
-    height: 125px;
-    background-color: #6886c5;
-
+  #bdyChld{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
   }
-  #e {
-    display: inline-block;
-    width: 240px;
-    height: 250px;
-    margin: -1px;
-    margin-top: 0;
-    margin-left: 143px;
-    background-color: #092532;
-
-   
+  #fstBdyChld{
+  display: flex;
+  flex-direction: column;
+  
+  width: 100%;
+  height:250px ;
   }
-  #f{
-    display: inline-block;
-
-    width: 240px;
-    height: 250px;
-    margin: -2px;
-    margin-top: 0;
-    margin-left: -2px;
-    background-color: #89c9b8;
-
+  .fstBdyChld{
+  width: 100%;
+  height: 100px;
+  line-height: 125px;
+  
   }
-  #g{
-    display: inline-block;
-     min-width: 240px;
-     min-height: 250px;
-     margin: -2px;
-     margin-top: 0;
-     margin-left: 143px;
-    background-color: #c7e2b2;
-
+  #secBdyChld{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height:500px;
+    width: 100%;
   }
-  #h{
-    display: inline-block;
-    width: 240px;
-    height: 250px;
-    margin: -2px;
-    margin-top: 0;
-    margin-left: -2px;
-    background-color: #e1ffc2;
-
+  
+  
+  .squered{
+    width: 50%;
+    height:250px;
+      line-height: 250px;
+  
   }
-
-  #i {
-    width: 480px;
+  #ee{
+    background-color: #99b898;
+  }
+  #ff{
+    background-color: #feceab;
+  }
+  #gg{
+    background-color: #ff847c;
+  }
+  #hh{
+    background-color: #e84a5f;
+  }
+  
+  #footChld{
+    width: 100%;
     height: 80px;
-    margin: 0 auto;
-    background-color: #b9ac92;
-
-  }
-}
-
-
-
-
-
-
-
-@media screen and (min-width: 768px) and (max-width: 960px) {
-  body {
-    background-color: black;
-  }
-  main {
-
-    
-    width: 100%;
-    height: 100%;
-    background-color: white;
-    margin: 0 auto;
-  }
-  section {
-    width: 960px;
-    height: 80%;
-    background-color: rgb(180, 180, 180);
-    margin: 0 auto;
-  }
-  h2 {
-    padding-top: 50px;
-    font-size: 20px;
-    font-weight: 900;
-    margin-left: 12.8%;
-  }
-  h2 span {
-    font-size: 20px;
-    font-weight: 500;
-    color: gray;
-  }
-  #a {
-    width: 960px;
-    height: 100px;
-    background-color: #f9f9f9;
-  }
-  #a p {
-    margin: 5% auto;
-  }
-
-  #b {
-    width: 200px;
-    height: 600px;
-    float: left;
-    background-color: #ffe0ac;
-  }
-  #b p {
-    margin: 99% auto;
-  }
-  #c,
-  #d {
-    width: 380px;
-    height: 200px;
-    float: left;
+    background-color: #07031a;
     
   }
-  #c{
-    background-color: #ffacb7;
-  }
-  #d{
-    background-color: #6886c5;
-  }
-  #c p,
-  #d p {
-    margin: 25% auto;
-  }
-  .squered {
-    display: inline-block;
-    margin: -2px;
-    margin-top: -1px;
-    width: 190px;
-    height: 250px;
-  }
-  #e{
-    background-color: #092532;
-  }
-  #f{
-    background-color: #89c9b8;
-
-  }
-  #g{
-    background-color: #c7e2b2;
-
-  }
-  #h{
-    background-color: #e1ffc2;
-
-  }
-  .squered p {
-    margin: 55% auto;
-  }
-
-  #i {
-    display: inline-block;
-    width: 760px;
-    height: 150px;
-    background-color: #b9ac92;
-  }
-  #i p {
-    margin: 10% auto;
-  }
-}
-
-
-
-
-/* STRECH GOALS */
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  
-  main{
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
-  }
-  section{
-    min-width: 768px;
-    max-width: 1024px;
-
-    height: 100%;
-  }
-  #a {
-    width: 960px;
-    height: 100px;
-    background-color: #f9f9f9;
-  }
-  #a p {
-    margin: 5% auto;
-  }
-  #a p::before{
-    font-weight: bolder;
-    font-size: 30px;
-    color: navy;
-    content: "It is ";
-  }
-  #a p::after{
-    font-weight: bolder;
-    font-size: 30px;
-    color: navy;
-    content: " Tablet";
-  }
-
-  #b {
-    width: 200px;
-    height: 600px;
-    float: left;
-    background-color: #ffe0ac;
-  }
-  #b p {
-    margin: 99% auto;
-  }
-  #c,
-  #d {
-    width: 380px;
-    height: 200px;
-    float: left;
-    
-  }
-  #c{
-    background-color: #ffacb7;
-  }
-  #d{
-    background-color: #6886c5;
-  }
-  #c p,
-  #d p {
-    margin: 25% auto;
-  }
-  .squered {
-    display: inline-block;
-    margin: -2px;
-    margin-top: -1px;
-    width: 190px;
-    height: 250px;
-  }
-  #e{
-    background-color: #092532;
-  }
-  #f{
-    background-color: #89c9b8;
-
-  }
-  #g{
-    background-color: #c7e2b2;
-
-  }
-  #h{
-    background-color: #e1ffc2;
-
-  }
-  .squered p {
-    margin: 55% auto;
-  }
-
-  #i {
-    display: inline-block;
-    width: 760px;
-    height: 150px;
-    background-color: #b9ac92;
-  }
-  #i p {
-    margin: 10% auto;
+  #footChld p{
+    text-align: center;
+    border: 1px solid black;
+    line-height: 80px;
   }
   
-} */
+  }
+  
+  
+  @media (min-width: 768px) and (max-width: 960px) {
+    
+    
+  #aHead{
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+  }
+  
+  
+  #parent{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 600px;
+    
+  }
+  #sidebar{
+    height: 600px;
+    
+    width: 25%;
+  
+  }
+  #bAside{
+    height: 100%;
+    line-height: 600px;
+    
+  }
+  #bdyChld{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 600px;
+  }
+  #fstBdyChld{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height:200px ;
+  }
+  .fstBdyChld{
+  width: 50%;
+  height: 200px;
+  line-height: 200px;
+  
+  }
+  #secBdyChld{
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+  }
+  
+  
+  .squered{
+    width: 25%;
+    height: 100%;
+      line-height: 250px;
+  
+  }
+  #ee{
+    background-color: #f7fbe1;
+  }
+  #ff{
+    background-color: #bac964;
+  }
+  #gg{
+    background-color: #438a5e;
+  }
+  #hh{
+    background-color: #436f8a;
+  }
+  #footChld{
+    width: 100%;
+    height: 150px;
+    background-color: #092532;
+    
+  }
+  #footChld p{
+    text-align: center;
+    border: 1px solid black;
+    line-height: 150px;
+  }
+  }
+  
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+  
+  #aHead{
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+  }
+  
+  
+  #parent{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 600px;
+    
+  }
+  #sidebar{
+    height: 600px;
+    
+    width: 20%;
+  
+  }
+  #bAside{
+    height: 100%;
+    line-height: 600px;
+    
+  }
+  #bdyChld{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 600px;
+  }
+  #fstBdyChld{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height:250px ;
+  }
+  .fstBdyChld{
+  width: 50%;
+  height: 250px;
+  line-height: 200px;
+  
+  }
+  #secBdyChld{
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+  }
+  
+  
+  .squered{
+    width: 25%;
+    height: 100%;
+      line-height: 250px;
+  
+  }
+  #ee{
+    background-color: #111d5e;
+  }
+  #ff{
+    background-color: #c70039;
+  }
+  #gg{
+    background-color: #f37121;
+  }
+  #hh{
+    background-color: #ffbd69;
+  }
+  #footChld{
+    width: 100%;
+    height: 100px;
+    background-color: #4a3f35;
+    
+  }
+  #footChld p{
+    text-align: center;
+    border: 1px solid black;
+    line-height: 100px;
+  }
+    
+  }
+  

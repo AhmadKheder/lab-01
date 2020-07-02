@@ -1,0 +1,224 @@
+
+
+#aHead{
+    line-height: 100px;
+  }
+  
+  
+  #parent{
+    display: flex;
+    flex-direction: row;
+    
+  }
+ 
+  #bAside{
+    line-height: 600px;
+    
+  }
+  
+  #bdyChld{
+    display: flex;
+    flex-direction: column;
+  }
+  #fstBdyChld{
+  display: flex;
+  flex-direction: row;
+  
+  }
+  .fstBdyChld{
+  
+  line-height: 200px;
+  
+  }
+  #secBdyChld{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  
+  .squered{
+    
+      line-height: 250px;
+  
+  }
+  
+  
+ 
+  #footChld p{
+    text-align: center;
+    line-height: 100px;
+  }
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  @media (min-width: 480px) and (max-width: 767px){
+    
+    
+  
+  #aHead{
+    
+    line-height: 75px;
+  }
+  
+  #parent{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  #bAside{
+    line-height: 150px;
+  }
+  #bdyChld{
+    display: flex;
+    flex-direction: column;
+  }
+  #fstBdyChld{
+  display: flex;
+  flex-direction: column;
+  
+  }
+  .fstBdyChld{
+ 
+  line-height: 125px;
+  
+  }
+  #secBdyChld{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+  }
+  
+  
+  .squered{
+   
+      line-height: 250px;
+  
+  }
+ 
+  
+  
+  #footChld p{
+    text-align: center;
+    border: 1px solid black;
+    line-height: 80px;
+  }
+  
+  }
+  
+  
+  @media (min-width: 768px) and (max-width: 960px) {
+    
+    
+  #aHead{
+  
+    line-height: 100px;
+  }
+  
+  
+  #parent{
+    display: flex;
+    flex-direction: row;
+  
+  }
+  
+  #bAside{
+    line-height: 600px;
+    
+  }
+  #bdyChld{
+    display: flex;
+    flex-direction: column;
+
+  }
+  #fstBdyChld{
+  display: flex;
+  flex-direction: row;
+  
+  }
+  .fstBdyChld{
+  
+  line-height: 200px;
+  
+  }
+  #secBdyChld{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  
+  .squered{
+    
+      line-height: 250px;
+  
+  }
+
+ 
+  #footChld p{
+    text-align: center;
+    line-height: 150px;
+  }
+  }
+  
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+  
+  #aHead{
+    
+    line-height: 100px;
+  }
+  
+  
+  #parent{
+    display: flex;
+    flex-direction: row;
+   
+    
+  }
+  
+  #bAside{
+    line-height: 600px;
+    
+  }
+  #bdyChld{
+    display: flex;
+    flex-direction: column;
+   
+  }
+  #fstBdyChld{
+  display: flex;
+  flex-direction: row;
+ 
+  }
+  .fstBdyChld{
+ 
+  line-height: 200px;
+  
+  }
+  #secBdyChld{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  
+  .squered{
+      line-height: 250px;
+  
+  }
+ 
+  
+  #footChld p{
+    text-align: center;
+    line-height: 100px;
+  }
+    
+  }
+  

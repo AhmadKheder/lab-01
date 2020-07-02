@@ -1,40 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/reset.css">
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/Base.css">
-    <link rel="stylesheet" href="styles/Layout.css">
-    <link rel="stylesheet" href="styles/Module.css">
-    <link rel="stylesheet" href="styles/State.css">
-    <link rel="stylesheet" href="styles/Theme.css">
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/Base.css" />
+    <link rel="stylesheet" href="styles/Layout.css" />
+    <link rel="stylesheet" href="styles/Module.css" />
+    <link rel="stylesheet" href="styles/State.css" />
+    <link rel="stylesheet" href="styles/Theme.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    
     <script src="jquery-3.5.1.min.js"></script>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 
-
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <main>
-<h2>Desktop: <span>769px - 960px</span></h2>
-        <section>
-            <div id="a"><p>a</p></div>
-            <div id="b"><p>b</p></div>
-            <div id="c"><p>c</p></div>
-            <div id="d"><p>d</p></div>
-            
-            <div class="squered" id="e"><p>e</p></div>
-            <div class="squered" id="f"><p>f</p></div>
-            <div class="squered" id="g"><p>g</p></div>
-            <div class="squered " id="h"><p>h</p></div>
-            
-            <div id="i"><p>i</p></div>
+      <h2>Desktop: <span>769px - 960px</span></h2>
+
+      <div id="aHead"><p>a</p></div>
+
+      <!-- 600 -->
+      <section id="parent">
+        <!-- 600 -->
+
+        <section id="sidebar">
+          <!-- 100% -->
+          <div id="bAside" class="Aside"><p>b</p></div>
         </section>
-        <div id="empty"></div>
+        <!-- 600 -->
+        <section id="bdyChld">
+            <!-- 250 -->
+          <section id="fstBdyChld">
+            <div id="cAside" class="fstBdyChld"><p>c</p></div>
+            <div id="dAside" class="fstBdyChld"><p>d</p></div>
+          </section>
+            <!-- 250 -->
+          <section id="secBdyChld">
+            <div class="squered" id="ee"><p>e</p></div>
+            <div class="squered" id="ff"><p>f</p></div>
+            <div class="squered" id="gg"><p>g</p></div>
+            <div class="squered" id="hh"><p>h</p></div>
+          </section>
+            <!-- 100 -->
+          <section id="footChld"><p>i</p></section>
+        </section>
+      </section>
+      <div id="emptyy"></div>
     </main>
     <script src="app.js"></script>
-</body>
+  </body>
 </html>

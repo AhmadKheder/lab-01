@@ -1,241 +1,250 @@
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
-    
-      main {
-      width: 100%;
-      height: 100%;
-     
-      margin: 0 auto;
-      
-    }
-    section {
-      width: 767px;
-   
-      height: 80%;
-     
-      margin: 0 auto;
-      
-    }
-    h2 {
-      padding-top: 50px;
-     
-      margin-left: 19%;
-    }
 
-    div {
-      left: 90px;
-    }
+#aHead{
+  width: 100%;
+  height: 100px;
+}
+
+
+#parent{
+  width: 100%;
+  height: 600px;
   
-    #a {
-      width: 480px;
-      height: 75px;
+}
+#sidebar{
+  height: 600px;
   
-    }
-    #b {
-      width: 480px;
-      height: 150px;
+  width: 20%;
   
-    }
-    #c {
-      width: 480px;
-      height: 125px;
+}
+#bAside{
+  height: 100%;  
+}
+
+#bdyChld{
+  width: 80%;
+  height: 600px;
+}
+#fstBdyChld{
+
+width: 100%;
+height:250px ;
+}
+.fstBdyChld{
+width: 50%;
+height: 250px;
+
+}
+#secBdyChld{
   
-    }
-  
-    #d {
-      width: 480px;
-      height: 125px;
-  
-    }
-    #e {
-      display: inline-block;
-      width: 240px;
-      height: 250px;
-      margin: -1px;
-      margin-top: 0;
-      margin-left: 143px;
-  
-     
-    }
-    #f{
-      display: inline-block;
-  
-      width: 240px;
-      height: 250px;
-      margin: -2px;
-      margin-top: 0;
-      margin-left: -2px;
-  
-    }
-    #g{
-      display: inline-block;
-       min-width: 240px;
-       min-height: 250px;
-       margin: -2px;
-       margin-top: 0;
-       margin-left: 143px;
-  
-    }
-    #h{
-      display: inline-block;
-      width: 240px;
-      height: 250px;
-      margin: -2px;
-      margin-top: 0;
-      margin-left: -2px;
-  
-    }
-  
-    #i {
-      width: 480px;
-      height: 80px;
-      margin: 0 auto;
-  
-    }
-  }
+  height: 250px;
+}
+
+
+.squered{
+  width: 25%;
+  height: 100%;
+
+}
+
+
+#footChld{
+  width: 100%;
+  height: 100px;
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 480px) and (max-width: 767px){
   
   
+
+#aHead{
+  width: 100%;
+  height: 75px;
+}
+
+#parent{
+
+  width: 100%;
+  height: 1105px;
+  
+}
+#sidebar{
+  height: 150px;
+  
+  width: 100%;
+
+}
+#bAside{
+  height: 150px;
+  
+}
+#bdyChld{
+ 
+  width: 100%;
+  height: 500px;
+}
+#fstBdyChld{
+
+
+width: 100%;
+height:250px ;
+}
+.fstBdyChld{
+width: 100%;
+height: 100px;
+
+}
+#secBdyChld{
+ 
+  height:500px;
+  width: 100%;
+}
+
+
+.squered{
+  width: 50%;
+  height:250px;
+
+}
+
+
+#footChld{
+  width: 100%;
+  height: 80px;
+  
+}
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 960px) {
   
   
+#aHead{
+  width: 100%;
+  height: 100px;
+}
+
+
+#parent{
+ 
+  width: 100%;
+  height: 600px;
   
+}
+#sidebar{
+  height: 600px;
   
+  width: 25%;
+
+}
+#bAside{
+  height: 100%;
   
-  @media screen and (min-width: 768px) and (max-width: 960px) {
-   
-    main {
+}
+#bdyChld{
+  width: 100%;
+  height: 600px;
+}
+#fstBdyChld{
+
+width: 100%;
+height:200px ;
+}
+.fstBdyChld{
+width: 50%;
+height: 200px;
+
+}
+#secBdyChld{
+  height: 250px;
+}
+
+
+.squered{
+  width: 25%;
+  height: 100%;
+
+}
+#footChld{
+  width: 100%;
+  height: 150px;
   
-      
-      width: 100%;
-      height: 100%;
-      margin: 0 auto;
-    }
-    section {
-      width: 960px;
-      height: 80%;
-      margin: 0 auto;
-    }
-    h2 {
-      padding-top: 50px;
-     
-      margin-left: 12.8%;
-    }
+}
+#footChld p{
+  line-height: 150px;
+}
+}
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
   
-    #a {
-      width: 960px;
-      height: 100px;
-    }
-    #a p {
-      margin: 5% auto;
-    }
+
+#aHead{
+  width: 100%;
+  height: 100px;
+}
+
+
+#parent{
+ 
+  width: 100%;
+  height: 600px;
   
-    #b {
-      width: 200px;
-      height: 600px;
-      float: left;
-    }
-    #b p {
-      margin: 99% auto;
-    }
-    #c,
-    #d {
-      width: 380px;
-      height: 200px;
-      float: left;
-      
-    }
+}
+#sidebar{
+  height: 600px;
   
-    #c p,
-    #d p {
-      margin: 25% auto;
-    }
-    .squered {
-      display: inline-block;
-      margin: -2px;
-      margin-top: -1px;
-      width: 190px;
-      height: 250px;
-    }
-   
-    .squered p {
-      margin: 55% auto;
-    }
+  width: 20%;
+
+}
+#bAside{
+  height: 100%;
   
-    #i {
-      display: inline-block;
-      width: 760px;
-      height: 150px;
-    }
-    #i p {
-      margin: 10% auto;
-    }
-  }
+}
+#bdyChld{
   
+  width: 80%;
+  height: 600px;
+}
+#fstBdyChld{
+
+width: 100%;
+height:250px ;
+}
+.fstBdyChld{
+width: 50%;
+height: 250px;
+
+}
+#secBdyChld{
+
+  height: 250px;
+}
+
+
+.squered{
+  width: 25%;
+  height: 100%;
+
+}
+#footChld{
+  width: 100%;
+  height: 100px;
+  background-color: #4a3f35;
   
+}
+
   
-  
-  /* STRECH GOALS */
-  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-    
-    main{
-      width: 100%;
-      height: 100%;
-      margin: 0 auto;
-    }
-    section{
-      min-width: 768px;
-      max-width: 1024px;
-  
-      height: 100%;
-    }
-    #a {
-      width: 960px;
-      height: 100px;
-    }
-    #a p {
-      margin: 5% auto;
-    }
-   
-  
-    #b {
-      width: 200px;
-      height: 600px;
-      float: left;
-    }
-    #b p {
-      margin: 99% auto;
-    }
-    #c,
-    #d {
-      width: 380px;
-      height: 200px;
-      float: left;
-      
-    }
-   
-    #c p,
-    #d p {
-      margin: 25% auto;
-    }
-    .squered {
-      display: inline-block;
-      margin: -2px;
-      margin-top: -1px;
-      width: 190px;
-      height: 250px;
-    }
-   
-    .squered p {
-      margin: 55% auto;
-    }
-  
-    #i {
-      display: inline-block;
-      width: 760px;
-      height: 150px;
-    }
-    #i p {
-      margin: 10% auto;
-    }
-    
-  }
-  
+
+}

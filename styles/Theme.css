@@ -1,213 +1,133 @@
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
-    body{
-        background-color: black;
-    }
-      main {
-    
-      background-color: white;
-      
-    }
-    section {
-     
-      background-color: rgb(180, 180, 180);
-      
-    }
-    h2 {
-      font-size: 20px;
-      font-weight: 900;
-    }
-    h2 span {
-      font-size: 20px;
-      font-weight: 500;
-      color: gray;
-    }
-    div {
-      border: 1px solid black;
-    }
+#sidebar{
+  background-color: #f69e7b;
+}
+
+#cAside{
+  background-color: #eedad1;
+
+}
+#dAside{
+  background-color: #d4b5b0;
+
+}
+#ee{
+  background-color: #f4f4f4;
+}
+#ff{
+  background-color: #f0a500;
+}
+#gg{
+  background-color: #cf7500;
+}
+#hh{
+  background-color: #000000;
+}
+
+#footChld{
+  background-color: #d4b5b0;
+}
+#footChld p{
+  border: 1px solid black;
+}
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 480px) and (max-width: 767px){
+#aHead{
+
+  background-color: #fbd46d;
+}
+
+#sidebar{
   
-    #a {
-     
-      background-color: #f9f9f9;
+  background-color: #4f8a8b;
+
+}
+
+
+#ee{
+  background-color: #99b898;
+}
+#ff{
+  background-color: #feceab;
+}
+#gg{
+  background-color: #ff847c;
+}
+#hh{
+  background-color: #e84a5f;
+}
+
+#footChld{
+
+  background-color: #07031a;
   
-    }
-    #b {
-   
-      background-color: #ffe0ac;
+}
+#footChld p{
+  border: 1px solid black;
+}
+
+}
+
+
+@media (min-width: 768px) and (max-width: 960px) {
+
+#ee{
+  background-color: #f7fbe1;
+}
+#ff{
+  background-color: #bac964;
+}
+#gg{
+  background-color: #438a5e;
+}
+#hh{
+  background-color: #436f8a;
+}
+#footChld{
+
+  background-color: #092532;
   
-    }
-    #c {
-     
-      background-color: #ffacb7;
+}
+#footChld p{
+  border: 1px solid black;
+}
+}
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
   
-    }
+
+
+
+
+
+#ee{
+  background-color: #111d5e;
+}
+#ff{
+  background-color: #c70039;
+}
+#gg{
+  background-color: #f37121;
+}
+#hh{
+  background-color: #ffbd69;
+}
+#footChld{
+ 
+  background-color: #4a3f35;
   
-    #d {
-    
-      background-color: #6886c5;
+}
+#footChld p{
+  border: 1px solid black;
+}
   
-    }
-    #e {
-    
-      background-color: #092532;
-  
-     
-    }
-    #f{
-     
-      background-color: #89c9b8;
-  
-    }
-    #g{
-    
-      background-color: #c7e2b2;
-  
-    }
-    #h{
-     
-      background-color: #e1ffc2;
-  
-    }
-  
-    #i {
-    
-      background-color: #b9ac92;
-  
-    }
-  }
-  
-  
-  
-  
-  
-  
-  
-  @media screen and (min-width: 768px) and (max-width: 960px) {
-    body {
-      background-color: black;
-    }
-    main {
-  
-      
-    
-      background-color: white;
-    }
-    section {
-     
-      background-color: rgb(180, 180, 180);
-    }
-    h2 {
-      font-size: 20px;
-      font-weight: 900;
-    }
-    h2 span {
-      font-size: 20px;
-      font-weight: 500;
-      color: gray;
-    }
-    #a {
-      
-      background-color: #f9f9f9;
-    }
-   
-    #b {
-     
-      background-color: #ffe0ac;
-    }
-   
-    #c{
-      background-color: #ffacb7;
-    }
-    #d{
-      background-color: #6886c5;
-    }
-    
-   
-    #e{
-      background-color: #092532;
-    }
-    #f{
-      background-color: #89c9b8;
-  
-    }
-    #g{
-      background-color: #c7e2b2;
-  
-    }
-    #h{
-      background-color: #e1ffc2;
-  
-    }
-  
-    #i {
-      
-      background-color: #b9ac92;
-    }
-   
-  }
-  
-  
-  
-  
-  /* STRECH GOALS */
-  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-    
-    
-    
-    #a {
-     
-      background-color: #f9f9f9;
-    }
-   
-    #a p::before{
-      font-weight: bolder;
-      font-size: 30px;
-      color: navy;
-      content: "It is ";
-    }
-    #a p::after{
-      font-weight: bolder;
-      font-size: 30px;
-      color: navy;
-      content: " Tablet";
-    }
-  
-    #b {
-     
-      background-color: #ffe0ac;
-    }
-   
-    #c{
-      background-color: #ffacb7;
-    }
-    #d{
-      background-color: #6886c5;
-    }
-    
-   
-    #e{
-      background-color: #092532;
-    }
-    #f{
-      background-color: #89c9b8;
-  
-    }
-    #g{
-      background-color: #c7e2b2;
-  
-    }
-    #h{
-      background-color: #e1ffc2;
-  
-    }
-   
-  
-    #i {
-    
-     
-      background-color: #b9ac92;
-    }
-   
-    
-  }
-  
+}
